@@ -12,8 +12,6 @@ files.then((direntFiles) => {
         if (err) throw err;
         console.log(`${f.name.split('.').slice(0,-1).join('')} - ${path.extname(pathToFile).split('').slice(1,).join('')} - ${stats.size} byte`);
       });
-
     }
-   
   }
 });
